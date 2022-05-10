@@ -1,0 +1,7 @@
+uk\ncl\cs\teamproject\model\User.class
+uk\ncl\cs\teamproject\common\JSONResult.class
+uk\ncl\cs\teamproject\service\LoginService.class
+uk\ncl\cs\teamproject\service\UserInfoService.class
+uk\ncl\cs\teamproject\common\Result.class
+uk\ncl\cs\teamproject\common\NeedToken.class
+uk\ncl\cs\teamproject\service\RegistrationService.class

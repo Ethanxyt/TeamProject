@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/KNXServer-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/KNXServer-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/KNXServer-socket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/KNXServer-socket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TeamProject-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TeamProject-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TeamProject-repo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TeamProject-repo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TeamProject-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TeamProject-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TeamProject-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TeamProject-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TeamProject-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TeamProject-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mm-web" />
+        <module name="TeamProject-entity" />
+        <module name="TeamProject-web" />
+        <module name="TeamProject-repo" />
+        <module name="mm-entity" />
+        <module name="mm-repo" />
+        <module name="mm-service" />
+        <module name="TeamProject-service" />
+        <module name="TeamProject-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="KNXServer-redis" target="1.6" />
+      <module name="KNXServer-socket" target="1.6" />
+      <module name="mm-entity" target="1.6" />
+      <module name="mm-repo" target="1.6" />
+      <module name="mm-service" target="1.6" />
+      <module name="mm-web" target="1.6" />
+      <module name="springboot-integration" target="1.6" />
+      <module name="TeamProject" target="1.6" />
+      <module name="TeamProject-entity" target="1.6" />
+      <module name="TeamProject-repo" target="1.6" />
+      <module name="TeamProject-service" target="1.6" />
+      <module name="TeamProject-util" target="1.6" />
+      <module name="TeamProject-web" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

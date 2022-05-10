@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TeamProject.iml" filepath="$PROJECT_DIR$/TeamProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KNXServer-entity/TeamProject-entity.iml" filepath="$PROJECT_DIR$/KNXServer-entity/TeamProject-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KNXServer-repo/TeamProject-repo.iml" filepath="$PROJECT_DIR$/KNXServer-repo/TeamProject-repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KNXServer-service/TeamProject-service.iml" filepath="$PROJECT_DIR$/KNXServer-service/TeamProject-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KNXServer-util/TeamProject-util.iml" filepath="$PROJECT_DIR$/KNXServer-util/TeamProject-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KNXServer-web/TeamProject-web.iml" filepath="$PROJECT_DIR$/KNXServer-web/TeamProject-web.iml" />
+    </modules>
+  </component>
+</project>

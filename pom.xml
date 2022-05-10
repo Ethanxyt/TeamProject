@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<!-- Basic information  -->
+	<description>SpringBoot Example of a multi-module build</description>
+	<modelVersion>4.0.0</modelVersion>
+	<name>spring-boot-integration</name>
+	<packaging>pom</packaging>
+
+	<!-- Project description: This serves as the parent project for the aggregation project -->
+	<groupId>uk.ncl.cs.teamproject</groupId>
+	<artifactId>TeamProject</artifactId>
+	<version>1.0.0.RELEASE</version>
+
+	<!-- Inheritance Note: This inherits from the parent project provided by SpringBoot -->
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.7.RELEASE</version>
+		<relativePath/>
+	</parent>
+
+	<!-- Module description: Multiple sub-modules are declared here -->
+	<modules>
+		<module>TeamProject-web</module>
+		<module>TeamProject-service</module>
+		<module>TeamProject-repo</module>
+		<module>TeamProject-entity</module>
+		<module>TeamProject-util</module>
+
+	</modules>
+
+	<!-- Release notes: Here the version numbers of dependencies are managed centrally -->
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>uk.ncl.cs.teamproject</groupId>
+				<artifactId>TeamProject-web</artifactId>
+				<version>1.0.0.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>uk.ncl.cs.teamproject</groupId>
+				<artifactId>TeamProject-service</artifactId>
+				<version>1.0.0.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>uk.ncl.cs.teamproject</groupId>
+				<artifactId>TeamProject-repo</artifactId>
+				<version>1.0.0.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>uk.ncl.cs.teamproject</groupId>
+				<artifactId>TeamProject-entity</artifactId>
+				<version>1.0.0.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>uk.ncl.cs.teamproject</groupId>
+				<artifactId>TeamProject-util</artifactId>
+				<version>1.0.0.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>uk.ncl.cs.teamproject</groupId>
+				<artifactId>TeamProject-socket</artifactId>
+				<version>1.0.0.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>uk.ncl.cs.teamproject</groupId>
+				<artifactId>TeamProject-redis</artifactId>
+				<version>1.0.0.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>net.sf.json-lib</groupId>
+				<artifactId>json-lib</artifactId>
+				<version>2.4</version>
+				<classifier>jdk15</classifier>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+</project>
